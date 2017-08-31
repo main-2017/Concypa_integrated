@@ -8,8 +8,9 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQU
 	$descripcion = $mysqli->real_escape_string($_POST['descripcion']);
 	$estado = $mysqli->real_escape_string($_POST['estado']);
 	$visible = $_POST['visible'];
+	$portada = $_POST['portada'];
 	
-	$update = $mysqli->query("UPDATE proyectos SET Titulo = '$titulo', Descripcion = '$descripcion', Estado = '$estado', Visible = '$visible' WHERE ID = '$id'; ");
+	$update = $mysqli->query("UPDATE proyectos SET Titulo = '$titulo', Descripcion = '$descripcion', Estado = '$estado', Visible = '$visible', Portada = '$portada' WHERE ID = '$id'; ");
 
 	if ($update) 
 		echo json_encode(array('error' => false));

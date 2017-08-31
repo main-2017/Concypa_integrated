@@ -40,6 +40,16 @@ if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WI
 							$return.= "<br><div class='radio'><label><input type='radio' name='visible' value='1'>Visible</label></div> <div class='radio'><label><input checked type='radio' name='visible' value='0'>No visible</label></div>";
 							
 						}
+
+						if ($array['Portada'] == 'SI') {
+							$return.=" <div class='checkbox'>
+            								<label><input type='checkbox' name='portada' value='SI' checked>En portada</label>
+          							</div>";
+						}else{
+							$return.=" <div class='checkbox'>
+            								<label><input type='checkbox' name='portada' value='SI'>En portada</label>
+          							</div>";
+						}
 	}else{
 			$return = "<h3 class='text-muted text-center'>No fue posible hallar el ID solicitado</h3>";
 	}

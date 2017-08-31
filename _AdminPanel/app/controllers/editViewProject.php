@@ -6,8 +6,7 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQU
 	$query = $mysqli->query("SELECT * FROM proyectos");
 	$field = mysqli_num_rows($query);
 	$return = "";
-	$field = $query->fetch_assoc();
-
+	
 	if ($field > 0) {
 		while ($field = $query->fetch_assoc()) {
 			$subtext = substr($field['Descripcion'],0, 200 );

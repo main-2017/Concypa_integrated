@@ -50,7 +50,39 @@ $(document).ready(function(){
 	.always(function() {
 		console.log("complete");
 	});
+
+	$.ajax({
+		url: 'controllers/loadServices.php',
+		type: 'POST',
+		dataType: 'html',
+		
+	})
+	.done(function(serverResp) {
+		console.log("success");
+		$("#serviciosOfrecidos").html(serverResp);
+	})
+	.fail(function() {
+		console.log("error");
+	})
+	.always(function() {
+		console.log("complete");
+	});
 	
-	
+	$.ajax({
+	url: 'controllers/loadPreviewProject.php',
+	type: 'POST',
+	dataType: 'html',
+		
+	})
+	.done(function(respuesta) {
+		console.log("success");
+		$("#projectPreview").html(respuesta);
+	})
+	.fail(function() {
+		console.log("error");
+	})
+	.always(function() {
+		console.log("complete");
+	});
 	
 });

@@ -104,8 +104,8 @@ function loadEditServicesModal(input){
 };
 
 //Guardado de cambios en edición de Servicios
-
-$(document).on('submit', '#formEditSlider', function(event){
+// Mirameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+$(document).on('submit', '#formEditServices', function(event){
 	event.preventDefault();
 	jQuery.ajax({
 	  url: '../../../app/controllers/updateEditServices.php',

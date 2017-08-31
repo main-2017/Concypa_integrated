@@ -2,7 +2,6 @@
 	require 'conection.php';
 	session_start();
 	$mysqli->set_charset('utf8');
-	$url = "";
 	$titulo = $mysqli->real_escape_string($_POST['titulo']);
 	$descripcion = $mysqli->real_escape_string($_POST['descripcion']);
 	$alt = $mysqli->real_escape_string($_POST['alt']);
@@ -11,7 +10,7 @@
 	echo $_FILES['uploadedfile']['name'];
 	$msg = "";
 
-	if ($_FILES['uploadedfile']['size'] > 200000){
+	if ($_FILES['uploadedfile']['size'] > 20000000){
 		$msg = $msg ."El archivo supera el tamaño máximo permitido.";
 		$uploadedfileload="false";
 	}

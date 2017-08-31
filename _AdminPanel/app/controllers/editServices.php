@@ -7,7 +7,7 @@ if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WI
 	$query = $mysqli->query("SELECT * FROM servicios WHERE ID = '".$searchID."';");
 	$return = "";
 
-	if ($query->num_rows > 1) {
+	if ($query->num_rows == 1) {
 			$array = $query->fetch_assoc();
 			$return.="<div class='form-group'>
 						<input type='hidden' name='id' class='form-control' readonly  id='id' value='".$array['ID']."'>

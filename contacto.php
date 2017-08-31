@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Contacto | Concypa</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/icomoon-fonts.css">
-	<script src="js/smooth-scroll.min.js"></script>
-	<script>smoothScroll.init();</script>
-</head>
+	<?php require('inlcudes/header.php') ?>
 <body>
 	<section class="container-fluid">
 		<section class="main">
@@ -24,7 +13,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 				      </button>
-				      <a href="#top" ><img class="logo" src="img/LOGO PNG.png" alt="Concypa"></a>
+				      <a href="#top" ><img class="logo" src="img/general/LOGO PNG.png" alt="Concypa"></a>
 					</div><!--Fin Navbar Header-->
 				      <div class="collapse navbar-collapse" id="header-menu"><!--Contenido de Navbar-->
 	      				    
@@ -60,7 +49,7 @@
 	</section>
 	<footer>
 		<div class="grey-letter">
-			<img class="logo-white-mini img-responsive" src="img/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
+			<img class="logo-white-mini img-responsive" src="img/general/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -90,5 +79,6 @@
 			</ul>
 		</div>
 	</footer>
+	<?php require('inlcudes/scripts.php') ?>
 </body>
 </html>

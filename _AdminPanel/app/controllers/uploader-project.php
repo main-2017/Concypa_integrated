@@ -8,6 +8,7 @@
 	$estado = $mysqli->real_escape_string($_POST['estado']);
 	$visible = $mysqli->real_escape_string($_POST['visible']);
 	$visible = (int) $visible;
+	$portada = $_POST['portada'];
 	$uploadedfileload="true";
 	$uploadedfile_name = $_FILES['uploadedfile2']['tmp_name'];
 	$uploadedfile_size=$_FILES['uploadedfile2']['size'];
@@ -36,7 +37,7 @@
 	if($uploadedfileload == "true"){
 		if((move_uploaded_file ($uploadedfile_name, $add)) && (move_uploaded_file($uploadedthumb_name, $add_thumb))){
 			echo "Han sido subidos satisfactoriamente";
-			$query = $mysqli->query("INSERT INTO proyectos (Imagen, Thumb,Titulo, Descripcion, Estado, Visible) VALUES ('../../../img/projects/normal/".$file_name."', '../../../img/projects/thumb".$thumb_name."', '".$titulo."', '".$descripcion."', '".$estado."', '".$visible."')");
+			$query = $mysqli->query("INSERT INTO proyectos (Imagen, Thumb,Titulo, Descripcion, Estado, Visible, Portada) VALUES ('../../../img/projects/normal/".$file_name."', '../../../img/projects/thumb/".$thumb_name."', '".$titulo."', '".$descripcion."', '".$estado."', '".$visible."','".$portada."')");
 		}
 
 		if($query)

@@ -30,8 +30,8 @@ if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WI
 				$carousel.="<div class='item'>
 							  <img src='".$url."' alt='".$field['ALT']."'>
 							  <div class='carousel-caption'>
-							  	<h3 class='slider-caption'>'".$field['Titulo']."'</h3>
-							  	<p class='slider-descrip'>'".$field['Descripcion']."'</p>
+							  	<h3 class='slider-caption'>".$field['Titulo']."</h3>
+							  	<p class='slider-descrip'>".$field['Descripcion']."</p>
 							  </div>
 							</div>";
 			}
