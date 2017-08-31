@@ -1,26 +1,25 @@
-$(document).ready(function(){
-	window.sr = ScrollReveal();
-    sr.reveal('.sr-icons', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 200);
-    sr.reveal('.sr-button', {
-        duration: 1000,
-        delay: 200
-    });
-    sr.reveal('.sr-contact', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 300);
 
+	$(document).ready(function(){
+		window.sr = ScrollReveal();
+	    sr.reveal('.sr-icons', {
+	        duration: 600,
+	        scale: 0.3,
+	        distance: '0px'
+	    }, 200);
+	    sr.reveal('.sr-button', {
+	        duration: 1000,
+	        delay: 200
+	    });
+	    sr.reveal('.sr-contact', {
+	        duration: 600,
+	        scale: 0.3,
+	        distance: '0px'
+	    }, 300);
 
+});
 
-	
 var flag = true;
-	$("#boton1").click(function(){
-		console.log("Presionado");
+	$(document).on('click', "#boton1",function(){
 		if (flag) {
 			$("#cartel1").slideDown("fast");
 			$(this).html("<span><img id='icon1' class='icon-toggle' src='img/general/icon-next.png' alt='toggle'></span>Ver Menos");
@@ -35,7 +34,7 @@ var flag = true;
 	});
 
 var flag1 = true;
-	$("#boton2").click(function(){
+	$(document).on('click', "#boton2",function(){
 		if (flag1) {
 			$("#cartel2").slideDown("fast");
 			$(this).html("<span><img id='icon2' class='icon-toggle' src='img/general/icon-next.png' alt='toggle'></span>Ver Menos");
@@ -50,7 +49,7 @@ var flag1 = true;
 	});
 
 	var flag2 = true;
-	$("#boton3").click(function(){
+	$(document).on('click', "#boton3", function(){
 		if (flag2) {
 			$("#cartel3").slideDown("fast");
 			$(this).html("<span><img id='icon3' class='icon-toggle' src='img/general/icon-next.png' alt='toggle'></span>Ver Menos");
@@ -65,7 +64,7 @@ var flag1 = true;
 	});
 
 	var flag3 = true;
-	$("#boton4").click(function(){
+	$(document).on('click', "#boton4", function(){
 		if (flag3) {
 			$("#cartel4").slideDown("fast");
 			$(this).html("<span><img id='icon4' class='icon-toggle' src='img/general/icon-next.png' alt='toggle'></span>Ver Menos");
@@ -78,4 +77,4 @@ var flag1 = true;
 			flag3 = true;
 		}
 	});
-});
+	

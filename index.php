@@ -22,6 +22,7 @@
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="#historia">Historia</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="#servicios">Servicios</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="proyectos.php">Proyectos</a></li>
+						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="INTRANET.CONCYPA.COM">Intranet</a></li>
 						        <li class="text-center"><a data-scroll class="menu-link" href="contacto.php">Contacto</a></li>
 						      </ul>
 					      
@@ -67,56 +68,47 @@
 				
 			
 				<div class="service-img">
-					<!-- <img class="img-responsive" style="width: 100%;" src="img/helmet-cut.jpg" alt="Concypa">
-					<div class="position-wrapper col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-left">
-						<h3 class="title-mision"><strong class="ultra-bold">Mision</strong></h3>
-						<p class="text-left texto-mision" style="color: #000;">CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. Es una empresa de Ingeniería, con amplia experiencia en las actividades de Interventoría y construcción, comprometida siempre con el medio ambiente, la seguridad de los trabajadores, apoyando el desarrollo del sector y generando empleo.</p>
-					</div>
-					<div class="position-wrapper-2 col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right">
-						<h3 class="title-vision"><strong class="ultra-bold">Vision</strong></h3>
-						<p class="text-right texto-vision" style="color: #000;">La organización CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. espera distinguirse en el medio de la ingeniería civil a través de un sistema de gestión de la calidad que genere confianza y satisfacción a sus clientes, esperando ser en el año 2020 una Empresa reconocida ampliamente por su gestión tanto a nivel regional y nacional, adquiriendo así cada vez más posicionamiento en el medio de la construcción.</p>
-					</div> -->
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/general/bg_dark.jpg" alt="Misión">
-      <div class="carousel-caption">
-        <h3 class="title-mision" style="font-size: 22px">Mision</h3>
-        <p class="texto-mision" style="font-size: 18px">CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. Es una empresa de Ingeniería, con amplia experiencia en las actividades de Interventoría y construcción, comprometida siempre con el medio ambiente, la seguridad de los trabajadores, apoyando el desarrollo del sector y generando empleo.</p>
-      </div>
-    </div>
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+						      <img src="img/general/bg_dark.jpg" alt="Misión">
+						      <div class="carousel-caption">
+						        <h3 class="title-mision" style="font-size: 22px">Mision</h3>
+						        <p class="texto-mision" style="font-size: 18px">CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. Es una empresa de Ingeniería, con amplia experiencia en las actividades de Interventoría y construcción, comprometida siempre con el medio ambiente, la seguridad de los trabajadores, apoyando el desarrollo del sector y generando empleo.</p>
+						      </div>
+						   </div>
 
-    <div class="item">
-      <img src="img/general/edificios.jpg" alt="vision">
-      <div class="carousel-caption">
-        <h3 class="title-vision" style="font-size: 22px">Vision</h3>
-        <p class="texto-vision" style="font-size: 18px">La organización CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. espera distinguirse en el medio de la ingeniería civil a través de un sistema de gestión de la calidad que genere confianza y satisfacción a sus clientes, esperando ser en el año 2020 una Empresa reconocida ampliamente por su gestión tanto a nivel regional y nacional, adquiriendo así cada vez más posicionamiento en el medio de la construcción.</p>
-      </div>
-    </div>
+						    <div class="item">
+						      <img src="img/general/edificios.jpg" alt="vision">
+						      <div class="carousel-caption">
+						        <h3 class="title-vision" style="font-size: 22px">Vision</h3>
+						        <p class="texto-vision" style="font-size: 18px">La organización CONSTRUCCIONES CIVILES Y PAVIMENTOS S.A. espera distinguirse en el medio de la ingeniería civil a través de un sistema de gestión de la calidad que genere confianza y satisfacción a sus clientes, esperando ser en el año 2020 una Empresa reconocida ampliamente por su gestión tanto a nivel regional y nacional, adquiriendo así cada vez más posicionamiento en el medio de la construcción.</p>
+						      </div>
+						    </div>
 
-  </div>
+						  </div>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
 					</div>
-					<div class="main-content" id="serviciosOfrecidos">
-						<!-- Contenido generado dinamicamente -->
-					</div>
+						<div class="main-content" id="serviciosOfrecidos">
+							<!-- Contenido generado dinamicamente -->
+						</div>
 
 
 						<section id="proyectos" class="project-content">
@@ -128,7 +120,7 @@
 							</div>
 			
 						</section>
-				</div><!--Fin del contenedor "content-position-absolute" -->
+			</div><!--Fin del contenedor "content-position-absolute" -->
 			<!--</div> Con este terminaba "service-img"-->
 			<div class="column-right"></div>
 		</section>

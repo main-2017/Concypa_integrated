@@ -22,6 +22,7 @@
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="index.php#historia">Historia</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="index.php#servicios">Servicios</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="proyectos.php">Proyectos</a></li>
+						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="INTRANET.CONCYPA.COM">Intranet</a></li>
 						        <li class="text-center"><a data-scroll class="menu-link" href="contacto.php">Contacto</a></li>
 						      </ul>
 					      
