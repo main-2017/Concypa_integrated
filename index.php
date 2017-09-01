@@ -22,7 +22,7 @@
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="#historia">Historia</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="#servicios">Servicios</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="proyectos.php">Proyectos</a></li>
-						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="INTRANET.CONCYPA.COM">Intranet</a></li>
+						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="http://intranet.concypa.com">Intranet</a></li>
 						        <li class="text-center"><a data-scroll class="menu-link" href="contacto.php">Contacto</a></li>
 						      </ul>
 					      
@@ -118,7 +118,7 @@
 							<div class="flex-content" id="projectPreview">
 								<!-- Contenido generado dinamicamente -->		
 							</div>
-			
+							<a href="proyectos.php" title="Ver Mas" id="content-more"><button type="button" class="btn center-block" id="more">Mas Proyectos</button></a>
 						</section>
 			</div><!--Fin del contenedor "content-position-absolute" -->
 			<!--</div> Con este terminaba "service-img"-->
@@ -127,22 +127,24 @@
 </section>
 	<footer>
 		<div class="grey-letter">
-			<img class="logo-white-mini img-responsive" src="img/general/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
+			<img id="footer-logo" class="logo-white-mini img-responsive" src="img/general/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<h4 class="contact-text text-muted text-center">08000-016-281-5</h4>
-				<h4 class="contact-text text-muted text-center">Cra. 37 A No. 2 Sur 78</h4>
 				<h4 class="contact-text text-muted text-center">+57 4 4444652</h4>
+				<h4 class="contact-text text-muted text-center">Cra. 37 A No. 2 Sur 78</h4>
+				<h4 class="contact-text text-muted text-center">Medellin, Colombia</h4>
+				<h4 class="contact-text text-muted text-center">informacion@concypa.com</h4>
 				<br>
-				<h5 class="contact-text text-muted text-center"><a href="#" title="" class="link-pdf">Politica anticorrupcion</a></h5>
-				<h5 class="contact-text text-muted text-center"><a href="#" title="" class="link-pdf">Politica de Tratamiento de datos</a></h5>
+				<h5 class="contact-text text-muted text-center"><a href="documents/politica-anticorrucion.pdf" title="Politica Anticorrupcion" class="link-pdf">Politica anticorrupcion</a></h5>
+				<h5 class="contact-text text-muted text-center"><a href="documents/politica-proteccion-datos-personales.pdf" title="Politica de Proteccion de datos personales" class="link-pdf">Politica de Tratamiento de datos</a></h5>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<ul class="list-menu-bottom">
-					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="#top">Home</a></li>
+					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php">Home</a></li>
 					<li class="sr-contact"><a class="link-menu text-muted" href="proyectos.php">Proyectos</a></li>
-					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="#servicios">Servicios</a></li>
+					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php#servicios">Servicios</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" href="INTRANET.CONCYPA.COM">Intranet</a></li>
 					<li class="sr-contact"><a class="link-menu text-muted" href="contacto.php">Contacto</a></li>
 				</ul>
 			</div>

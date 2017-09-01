@@ -2,7 +2,7 @@
  if (!empty($_SERVER['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
 	require('conection.php');
 	session_start();
-	
+	$mysqli->set_charset('utf8');
 	$nombre = $mysqli->real_escape_string($_POST['nombre']);
 	$username = $mysqli->real_escape_string($_POST['username']);
 	$pass = $mysqli->real_escape_string($_POST['password']);

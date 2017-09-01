@@ -47,7 +47,7 @@
 
 		<section class="bloque-proyectos">
 			<div class="letter" style="float: left; padding-top: 30px; padding-bottom: -20px; width: 100%; background-position: left; margin: 30px 0px; position: relative;">
-				<h2 class="title-proyectos" style="z-index: 108; position: absolute; top: 0px; padding-top: 0;">Proyectos Finalizados</h2>
+				<h2 id="proyectos-finalizados" class="title-proyectos" style="z-index: 108; position: absolute; top: 0px; padding-top: 0;">Proyectos Finalizados</h2>
 			</div>
 				<div class="flex-content" id="proyectosTerminados">
 					<!-- Contenido generado dinamicamente -->
@@ -59,22 +59,24 @@
 	<!--Comienzo pie de pagina-->
 	<footer>
 		<div class="grey-letter">
-			<img class="logo-white-mini img-responsive" src="img/general/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
+			<img id="footer-logo" class="logo-white-mini img-responsive" src="img/general/LOGO PNG BLANCO.png" alt="Concypa" style="width: 300px; height: auto;">
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<h4 class="contact-text text-muted text-center">08000-016-281-5</h4>
-				<h4 class="contact-text text-muted text-center">Cra. 37 A No. 2 Sur 78</h4>
 				<h4 class="contact-text text-muted text-center">+57 4 4444652</h4>
+				<h4 class="contact-text text-muted text-center">Cra. 37 A No. 2 Sur 78</h4>
+				<h4 class="contact-text text-muted text-center">Medellin, Colombia</h4>
+				<h4 class="contact-text text-muted text-center">informacion@concypa.com</h4>
 				<br>
-				<h5 class="contact-text text-muted text-center"><a href="#" title="" class="link-pdf">Politica anticorrupcion</a></h5>
-				<h5 class="contact-text text-muted text-center"><a href="#" title="" class="link-pdf" id="link-pdf">Politica de Tratamiento de datos</a></h5>
+				<h5 class="contact-text text-muted text-center"><a href="documents/politica-anticorrucion.pdf" title="Politica Anticorrupcion" class="link-pdf">Politica anticorrupcion</a></h5>
+				<h5 class="contact-text text-muted text-center"><a href="documents/politica-proteccion-datos-personales.pdf" title="Politica de Proteccion de datos personales" class="link-pdf">Politica de Tratamiento de datos</a></h5>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<ul class="list-menu-bottom">
 					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php">Home</a></li>
-					<li class="sr-contact"><a class="link-menu text-muted" href="index.php#proyectos">Proyectos</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" href="proyectos.php">Proyectos</a></li>
 					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php#servicios">Servicios</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" href="INTRANET.CONCYPA.COM">Intranet</a></li>
 					<li class="sr-contact"><a class="link-menu text-muted" href="contacto.php">Contacto</a></li>
 				</ul>
 			</div>
@@ -83,7 +85,7 @@
 			<ul class="social-icon">
 				<li class="sr-button"><a id="google" class="social-a" href="#"><span class="icon-google-plus"></span></a></li>
 				<li class="sr-button"><a id="facebook" class="social-a" href="#"><span class="icon-facebook"></span></a></li>
-				<li class="sr-button"><a id="twitter" class="social-a" href="#"><span class="icon-twitter"></span></a></li>
+				<li class="sr-button"><a id="twitter" class="social-a" href="https://twitter.com/CONCYPA_SA"><span class="icon-twitter"></span></a></li>
 				<li class="sr-button"><a id="youtube" class="social-a" href="#"><span class="icon-youtube"></span></a></li>
 				<li class="sr-button"><a id="linkedin" class="social-a" href="#"><span class="icon-linkedin2"></span></a></li>
 			</ul>

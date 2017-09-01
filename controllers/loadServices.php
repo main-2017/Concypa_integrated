@@ -1,6 +1,7 @@
 <?php 
 	if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
 		require('../_AdminPanel/app/controllers/conection.php');
+		$mysqli->set_charset('utf8');
 		$query = $mysqli->query("SELECT * FROM servicios");
 		$field = mysqli_num_rows($query);
 		$return = '';

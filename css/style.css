@@ -406,7 +406,6 @@ footer{
 .grey-letter{
 	width: 100%;
 	height: auto;
-	background-color: #B5B5B5;
 
 }
 
@@ -491,6 +490,27 @@ footer{
 
 #linkedin:hover{
 	color: #007bb5;
+}
+
+#more{ 
+	width: 150px;
+	height: 50px;
+	background-color: #333950;
+	color: #FFF;
+	border: none;
+	letter-spacing: 2px;
+	clear: both;
+	transition: all 0.4s;
+	margin: auto;
+}
+
+#more:hover{
+	color: #FFF;
+	background-color: #2F3E72;
+}
+
+#content-more:hover{
+	text-decoration: none !important;
 }
 
 /*Media queries*/
@@ -784,6 +804,54 @@ footer{
 	.column-left,.column-right{
 		height: 3100px;
 	}
+
+	.slider-caption{
+		font-size: 1em;
+	}
+
+	.title-historia{
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.texto-historia{
+		margin-left: 0px;
+	}
+
+	.title-servicios{
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+
+	.title-mision, .title-vision{
+		font-size: 14px !important;
+		margin-top: 0px;
+	}
+
+	.texto-mision, .texto-vision{
+		font-size: 6px !important;
+	}
+
+	.carousel-caption{
+		padding-top: 0px !important;
+	}
+
+	.title-proyectos{
+		padding-left: 0px;
+		text-align: center;
+		font-size:1em;
+	}
+	
+	#footer-logo{
+	    width: 150px !important; 
+	    height: auto;
+	}
+	
+	#proyectos-finalizados{
+	    padding-left: 15px;
+	}
+	
 }
 
 

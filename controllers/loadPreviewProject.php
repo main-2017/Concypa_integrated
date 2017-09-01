@@ -1,6 +1,7 @@
 <?php 
 if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
 		require('../_AdminPanel/app/controllers/conection.php');
+		$mysqli->set_charset('utf8');
 		$query = $mysqli->query("SELECT * FROM proyectos WHERE Portada = 'SI'");
 		$field = mysqli_num_rows($query);
 		$return = '';
@@ -36,7 +37,7 @@ if (!empty(['HTTP_X_REQUESTED_WITH'])&& strtolower($_SERVER['HTTP_X_REQUESTED_WI
 													<div class='col-lg-12 col-sm-12 col-md-12 col-xs-12'>
 														<h4 class='text-center'>".$field['Titulo']."</h4>
 														<br>
-															<div class='col-lg-6 col-sm-12 col-md-6 col-xs-12'>
+															<div class='col-lg-6 col-sm-12 col-md-6 col-xs-12' style='margin-bottom: 30px; margin-right:20px;'>
 																<img class='img-responsive' id='img-modal1' src='".$imagen."' alt=''>
 															</div>
 														<p>".$field['Descripcion']."</p>
