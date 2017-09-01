@@ -22,7 +22,7 @@
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="index.php#historia">Historia</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="index.php#servicios">Servicios</a></li>
 						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="proyectos.php">Proyectos</a></li>
-						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" href="INTRANET.CONCYPA.COM">Intranet</a></li>
+						        <li class="text-center"><a data-scroll style="border-right: 2px solid #00005E" class="menu-link" target="_blank" href="http://intranet.concypa.com">Intranet</a></li>
 						        <li class="text-center"><a data-scroll class="menu-link" href="contacto.php">Contacto</a></li>
 						      </ul>
 					      
@@ -64,21 +64,21 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<ul class="list-menu-bottom">
-					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php">Home</a></li>
-					<li class="sr-contact"><a class="link-menu text-muted" href="proyectos.php">Proyectos</a></li>
+					<li class="sr-contact"><a data-scroll class="link-menu text-muted" target="_blank" href="index.php">Home</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" target="_blank" href="proyectos.php">Proyectos</a></li>
 					<li class="sr-contact"><a data-scroll class="link-menu text-muted" href="index.php#servicios">Servicios</a></li>
-					<li class="sr-contact"><a class="link-menu text-muted" href="INTRANET.CONCYPA.COM">Intranet</a></li>
-					<li class="sr-contact"><a class="link-menu text-muted" href="contacto.php">Contacto</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" target="_blank" href="http://intranet.concypa.com">Intranet</a></li>
+					<li class="sr-contact"><a class="link-menu text-muted" target="_blank" href="contacto.php">Contacto</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row">
 			<ul class="social-icon">
-				<li class="sr-button"><a id="google" class="social-a" href="#"><span class="icon-google-plus"></span></a></li>
-				<li class="sr-button"><a id="facebook" class="social-a" href="#"><span class="icon-facebook"></span></a></li>
-				<li class="sr-button"><a id="twitter" class="social-a" href="https://twitter.com/CONCYPA_SA"><span class="icon-twitter"></span></a></li>
-				<li class="sr-button"><a id="youtube" class="social-a" href="#"><span class="icon-youtube"></span></a></li>
-				<li class="sr-button"><a id="linkedin" class="social-a" href="#"><span class="icon-linkedin2"></span></a></li>
+				<li class="sr-button"><a id="google" class="social-a" target="_blank" href="#"><span class="icon-google-plus"></span></a></li>
+				<li class="sr-button"><a id="facebook" class="social-a" target="_blank" href="#"><span class="icon-facebook"></span></a></li>
+				<li class="sr-button"><a id="twitter" class="social-a" target="_blank" href="https://twitter.com/CONCYPA_SA"><span class="icon-twitter"></span></a></li>
+				<li class="sr-button"><a id="youtube" class="social-a" target="_blank" href="#"><span class="icon-youtube"></span></a></li>
+				<li class="sr-button"><a id="linkedin" class="social-a" target="_blank" href="#"><span class="icon-linkedin2"></span></a></li>
 			</ul>
 		</div>
 	</footer>
